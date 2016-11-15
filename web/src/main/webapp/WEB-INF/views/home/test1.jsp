@@ -21,13 +21,16 @@
     <link href="<%=cp%>../../../css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href="<%=cp%>../../../ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="<%=cp%>http://fonts.googleapis.com/css?family=Lora|Open+Sans" rel="stylesheet" type="text/css">
-
+    <link href="<%=cp%>../../../css/modalbootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="<%=cp%>../../../css/modalbootstrap.min.css" rel="stylesheet" type="text/css"/>
     <!-- main css -->
     <link href="<%=cp%>../../../css/style.css" type="text/css" rel="stylesheet">
 
 
     <!-- modernizr -->
     <script src="<%=cp%>../../../js/modernizr.js"></script>
+    <script type="text/javascript" src="<%=cp%>../../../js/modaljquery.js"></script>
+    <script type="text/javascript" src="<%=cp%>../../../js/modalbootstrap.js"></script>
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -36,24 +39,118 @@
     <script src="<%=cp%>https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="<%=cp%>https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        .modalBox{
+            margin: 150px;
+        }
+        .msg{
+            width: 150px;
+            height:80px;
+        }
+
+    </style>
 </head>
 <body>
-    <nav class = "categories text-center">
-        <ul class="portfolio-filter">
-            <li>
-                <a href class="active" data-filter="0">Button01</a>
-            </li>
-            <li>
-                <a href class="active" data-filter="1">Button02</a>
-            </li>
-            <li>
-                <a href class="active" data-filter="2">Button03</a>
-            </li>
-            <li>
-                <a href class="active" data-filter="3">Button04</a>
-            </li>
-        </ul>
-    </nav>
+<div class="modalBox">
+    <a data-toggle="modal" href="#myModal1" class="btn btn-primary btn-large">View1</a>
+    <a data-toggle="modal" href="#myModal2" class="btn btn-primary btn-large">View2</a>
+    <a data-toggle="modal" href="#myModal3" class="btn btn-primary btn-large">View3</a>
+    <a data-toggle="modal" href="#myModal4" class="btn btn-primary btn-large">View4</a>
+</div>
+
+<div class="modal" id="myModal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">VR View</h4>
+            </div>
+            <div class="modal-body">
+                <iframe
+                        frameborder="0"
+                        width="100%"
+                        height="80%"
+                        scrolling="no"
+                        allowfullscreen
+                        src="<%=cp%>../../../vr/index.html?image=<%=cp%>../../../img/115r.jpg&is_stereo=false">
+                </iframe>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Close</a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal" id="myModal2">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">VR View</h4>
+            </div>
+            <div class="modal-body">
+                <iframe
+                        frameborder="0"
+                        width="100%"
+                        height="80%"
+                        scrolling="no"
+                        allowfullscreen
+                        src="<%=cp%>../../../vr/index.html?image=<%=cp%>../../../img/1.jpg&is_stereo=true">
+                </iframe>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Close</a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal" id="myModal3">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">VR View</h4>
+            </div>
+            <div class="modal-body">
+                <iframe
+                        frameborder="0"
+                        width="100%"
+                        height="80%"
+                        scrolling="no"
+                        allowfullscreen
+                        src="<%=cp%>../../../vr/index.html?image=<%=cp%>../../../img/3.jpg&is_stereo=true">
+                </iframe>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Close</a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal" id="myModal4">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">VR View</h4>
+            </div>
+            <div class="modal-body">
+                <iframe
+                        frameborder="0"
+                        width="100%"
+                        height="80%"
+                        scrolling="no"
+                        allowfullscreen
+                        src="<%=cp%>../../../vr/index.html?image=<%=cp%>../../../img/101r.jpg&is_stereo=true">
+                </iframe>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Close</a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 
 </body>
 </html>

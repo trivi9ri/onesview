@@ -23,8 +23,8 @@
 hihihihihihi
    <iframe
            frameborder="0"
-           width="60%"
-           height="150"
+           width="100%"
+           height="100"
            scrolling="no"
            allowfullscreen
            src="<%=cp%>../../../vr/index.html?image=<%=cp%>../../../img/1.jpg&is_stereo=true">
