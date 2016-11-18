@@ -118,7 +118,7 @@
                         height="80%"
                         scrolling="no"
                         allowfullscreen
-                        src="<%=cp%>../../../vr/index.html?image=<%=cp%>../../../img/3.jpg&is_stereo=true">
+                        src="<%=cp%>../../../vr/index.html?image=<%=cp%>../../../img/115r.jpg&is_stereo=false">
                 </iframe>
             </div>
             <div class="modal-footer">

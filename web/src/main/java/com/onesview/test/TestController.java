@@ -20,6 +20,11 @@ public class TestController {
         return "home/test1";
     }
 
+    @RequestMapping("KTwiz")
+    public String KTwwiz() {
+        return "home/suwonWiz";
+    }
+
 
 
 

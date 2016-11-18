@@ -1404,3 +1404,10 @@ window.Modernizr = (function( window, document, undefined ) {
     return Modernizr;
 
 })(this, this.document);
+
+var img = document.getElementsByTagName("img");
+var i = 0;
+while(i < img.length){
+    img[i].setAttribute("style","max-width: 100%; height:")
+    i++;
+}
