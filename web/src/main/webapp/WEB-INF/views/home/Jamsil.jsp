@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
-  User: Administrator
-  Date: 2016-11-17
-  Time: 오후 3:15
+  User: 최성신
+  Date: 2016-11-19
+  Time: 오후 3:16
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -37,12 +37,12 @@
 </head>
 <body class style="overflow: visible;">
 <div id="preloader" style="display: none;">
-   <div class="pre-container">
-       <div class="spinner">
-           <div class="double-bounce1"></div>
-           <div class="double-bounce2"></div>
-       </div>
-   </div>
+    <div class="pre-container">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
 </div>
 <div class="container-fluid">
     <header class="box-header">
@@ -52,15 +52,10 @@
             </a>
         </div>
     </header>
-    <div class="container main-container clearfix">
-        <div class="col-md-pull-12">
-            <img src="<%=cp%>../../../img/kt_wiz.jpg" style="max-width: 100%; height: auto;" usemap="#ktmap" position=relative; top=30px; left=30px;>
-            <map name="ktmap">
-                <area id="101" shape="poly" coords="458,201,460,198,472,211,478,196" href="<%=cp%>../../../main.jsp" target="_blank" onfocus="getfocus()">
-            </map>
-        </div>
-        수원kt
-    </div>
+    <br/>
+    <br/>
+    <br/>
+    <h1>준비중입니다.</h1>
 </div>
 <script>
     function getfocus() {

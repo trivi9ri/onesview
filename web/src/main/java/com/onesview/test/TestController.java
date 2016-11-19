@@ -21,9 +21,17 @@ public class TestController {
     }
 
     @RequestMapping("KTwiz")
-    public String KTwwiz() {
+    public String KTwiz() {
         return "home/suwonWiz";
     }
+
+    @RequestMapping("Jamsil")
+    public String Jamsil() {
+        return "home/Jamsil";
+    }
+
+
+
 
     @RequestMapping("main")
     public String main() { return "home/main"; }

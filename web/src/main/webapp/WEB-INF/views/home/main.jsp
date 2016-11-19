@@ -89,8 +89,9 @@
         <div class="categories-grid wow fadeInLeft">
             <nav class="categories text-center">
                 <ul class="portfolio_filter">
-                    <li><a href="" data-filter=".photography">수원KT위즈파크</a></li>
-                    <li><a href="" data-filter=".logo">잠실야구장</a></li>
+                    <li><a href="" data-filter="*" style="color: white">aaaaaaaaaaaa</a></li>
+                    <li><a href="/test/KTwiz.view" >수원KT위즈파크</a></li>
+                    <li><a href="/test/Jamsil.view" data-filter=".logo">잠실야구장</a></li>
                     <li><a href="" data-filter=".graphics">고척스카이돔</a></li>
                     <li><a href="" data-filter=".ads">인천 SK행복드림구장</a></li>
                     <li><a href="" data-filter=".fashion">한화생명이글스파크</a></li>
@@ -117,13 +118,13 @@
 <script src="<%=cp%>../../../js/jquery-2.1.1.js"></script>
 <!--  plugins -->
 <script src="<%=cp%>../../../js/bootstrap.min.js"></script>
-<script src="<%=cp%>../../../js/menu.js"></script>
+<!--<script src="<%=cp%>../../../js/menu.js"></script>-->
 <script src="<%=cp%>../../../js/animated-headline.js"></script>
 <script src="<%=cp%>../../../js/isotope.pkgd.min.js"></script>
 
 
 <!--  custom script -->
-<script src="<%=cp%>../../../js/custom.js"></script>
+<!--<script src="<%=cp%>../../../js/custom.js"></script>-->
 
 </body>
 
