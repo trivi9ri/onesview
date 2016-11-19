@@ -90,11 +90,11 @@
             <nav class="categories text-center">
                 <ul class="portfolio_filter">
                     <li><a href="" data-filter="*" style="color: white">aaaaaaaaaaaa</a></li>
-                    <li><a href="/test/KTwiz.view" >수원KT위즈파크</a></li>
-                    <li><a href="/test/Jamsil.view" data-filter=".logo">잠실야구장</a></li>
-                    <li><a href="" data-filter=".graphics">고척스카이돔</a></li>
-                    <li><a href="" data-filter=".ads">인천 SK행복드림구장</a></li>
-                    <li><a href="" data-filter=".fashion">한화생명이글스파크</a></li>
+                    <li><a href="/test/KTwiz.view">수원KT위즈파크</a></li>
+                    <li><a href="/test/Jamsil.view">잠실야구장</a></li>
+                    <li><a href="/test/Gocheok.view">고척스카이돔</a></li>
+                    <li><a href="/test/Incheon.view">인천 SK행복드림구장</a></li>
+                    <li><a href="/test/Daejeon.view">대전 한화생명이글스파크</a></li>
                 </ul>
             </nav>
         </div>
