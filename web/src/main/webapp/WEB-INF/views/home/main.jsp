@@ -39,14 +39,16 @@
 <body>
 
 
-<div class="container-fluid">
+
+
+<div class="container-fluid" style="width: 90%; float: right">
     <!-- box header -->
-    <header class="box-header">
-        <div style="position: relative; left: 100px; top: 30px;">
+    <header class="box-header" >
+        <!--<div style="position: relative; left: 100px; top: 30px;">
             <form method="get" action="/search" id="search">
                 <input name="q" type="text" size="100" placeholder="Search..." />
             </form>
-        </div>
+        </div> -->
         <!-- box-nav -->
         <a class="box-primary-nav-trigger" href="#0">
             <span class="box-menu-text">My ticket</span>
@@ -59,11 +61,13 @@
 
     <!-- end nav -->
 
+
+
     <!-- box-intro -->
     <section class="box-intro">
-        <div class="table-cell">
+        <div class="table-cell" style="position: relative; right: 5%">
             <h1 class="box-headline letters rotate-2">
-                    <span class="box-words-wrapper">
+                    <span class="box-words-wrapper" >
                         <b class="is-visible">one's.</b>
                         <b>  view.</b>
                     </span>
@@ -78,183 +82,30 @@
     <!-- end box-intro -->
 </div>
 
-<!-- portfolio div -->
-<div class="portfolio-div">
+<div class="portfolio-div" style="width: 10%; float: left">
     <div class="portfolio">
-        <div class="no-padding portfolio_container">
-            <!-- single work -->
-            <div class="col-md-3 col-sm-6  fashion logo">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                    <div class="portfolio_item_hover">
-                        <div class="portfolio-border clearfix">
-                            <div class="item_info">
-                                <span>Mockups in seconds</span>
-                                <em>Fashion / Logo</em>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- end single work -->
 
-            <!-- single work -->
-            <div class="col-md-3 col-sm-6 ads graphics">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                    <div class="portfolio_item_hover">
-                        <div class="portfolio-border clearfix">
-                            <div class="item_info">
-                                <span>Floating mockups</span>
-                                <em>Ads / Graphics</em>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- end single work -->
-
-            <!-- single work -->
-            <div class="col-md-6 col-sm-12 photography">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                    <div class="portfolio_item_hover">
-                        <div class="portfolio-border clearfix">
-                            <div class="item_info">
-                                <span>Photorealistic smartwatch</span>
-                                <em>Photography</em>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- end single work -->
-
-            <!-- single work -->
-            <div class="col-md-3 col-sm-6 fashion ads">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                    <div class="portfolio_item_hover">
-                        <div class="portfolio-border clearfix">
-                            <div class="item_info">
-                                <span>Held by hands</span>
-                                <em>Fashion / Ads</em>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- end single work -->
-
-            <!-- single work -->
-            <div class="col-md-3 col-sm-6 graphics ads">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                    <div class="portfolio_item_hover">
-                        <div class="portfolio-border clearfix">
-                            <div class="item_info">
-                                <span>Mobile devices</span>
-                                <em>Graphics / Ads</em>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- end single work -->
-
-            <!-- single work -->
-            <div class="col-md-6 col-sm-12 photography">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                    <div class="portfolio_item_hover">
-                        <div class="portfolio-border clearfix">
-                            <div class="item_info">
-                                <span>Photorealistic smartwatch</span>
-                                <em>Photography</em>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- end single work -->
-
-            <!-- single work -->
-            <div class="col-md-3 col-sm-6 graphics ads">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                    <div class="portfolio_item_hover">
-                        <div class="portfolio-border clearfix">
-                            <div class="item_info">
-                                <span>Mobile devices</span>
-                                <em>Graphics / Ads</em>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- end single work -->
-
-            <!-- single work -->
-            <div class="col-md-3 col-sm-6 graphics ads">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                    <div class="portfolio_item_hover">
-                        <div class="portfolio-border clearfix">
-                            <div class="item_info">
-                                <span>Mobile devices</span>
-                                <em>Graphics / Ads</em>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- end single work -->
-
-            <!-- single work -->
-            <div class="col-md-3 col-sm-6 graphics ads">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                    <div class="portfolio_item_hover">
-                        <div class="portfolio-border clearfix">
-                            <div class="item_info">
-                                <span>Mobile devices</span>
-                                <em>Graphics / Ads</em>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- end single work -->
-
-            <!-- single work -->
-            <div class="col-md-3 col-sm-6 graphics ads">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                    <div class="portfolio_item_hover">
-                        <div class="portfolio-border clearfix">
-                            <div class="item_info">
-                                <span>Mobile devices</span>
-                                <em>Graphics / Ads</em>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- end single work -->
+        <!-- portfolio_filter -->
+        <div class="categories-grid wow fadeInLeft">
+            <nav class="categories text-center">
+                <ul class="portfolio_filter">
+                    <li><a href="" data-filter=".photography">수원KT위즈파크</a></li>
+                    <li><a href="" data-filter=".logo">잠실야구장</a></li>
+                    <li><a href="" data-filter=".graphics">고척스카이돔</a></li>
+                    <li><a href="" data-filter=".ads">인천 SK행복드림구장</a></li>
+                    <li><a href="" data-filter=".fashion">한화생명이글스파크</a></li>
+                </ul>
+            </nav>
         </div>
-        <!-- end portfolio_container -->
+        <!-- portfolio_filter -->
     </div>
-    <!-- portfolio -->
 </div>
-<!-- end portfolio div -->
 
-<!-- footer -->
-<footer>
-    <div class="container-fluid">
-        <p class="copyright">© Box Portfolio 2016</p>
-    </div>
-</footer>
-<!-- end footer -->
+
+<!-- portfolio div -->
+
+
+
 
 <!-- back to top -->
 <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
@@ -263,16 +114,16 @@
 
 
 <!-- jQuery -->
-<script src="js/jquery-2.1.1.js"></script>
+<script src="<%=cp%>../../../js/jquery-2.1.1.js"></script>
 <!--  plugins -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/menu.js"></script>
-<script src="js/animated-headline.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
+<script src="<%=cp%>../../../js/bootstrap.min.js"></script>
+<script src="<%=cp%>../../../js/menu.js"></script>
+<script src="<%=cp%>../../../js/animated-headline.js"></script>
+<script src="<%=cp%>../../../js/isotope.pkgd.min.js"></script>
 
 
 <!--  custom script -->
-<script src="js/custom.js"></script>
+<script src="<%=cp%>../../../js/custom.js"></script>
 
 </body>
 

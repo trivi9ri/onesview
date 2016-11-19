@@ -25,6 +25,12 @@ public class TestController {
         return "home/suwonWiz";
     }
 
+    @RequestMapping("main")
+    public String main() { return "home/main"; }
+
+    @RequestMapping("main1")
+    public String main1() { return "home/main1"; }
+
 
 
 
