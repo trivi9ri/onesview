@@ -29,6 +29,18 @@ public class TestController {
     public String Jamsil() {
         return "home/Jamsil";
     }
+    @RequestMapping("Gocheok")
+    public String Gocheok() {
+        return "home/Gocheok";
+    }
+    @RequestMapping("Incheon")
+    public String Incheon() {
+        return "home/Incheon";
+    }
+    @RequestMapping("Daejeon")
+    public String Daejeon() {
+        return "home/Daejeon";
+    }
 
 
 

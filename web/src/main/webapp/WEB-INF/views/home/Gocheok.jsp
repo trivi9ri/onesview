@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: 최성신
   Date: 2016-11-19
-  Time: 오후 3:16
+  Time: 오후 3:53
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>잠실야구장</title>
+    <title>고척스카이돔</title>
     <link rel="icon" href="<%=cp%>../../../img/fav.png" type="image/x-icon">
 
     <!-- Bootstrap -->

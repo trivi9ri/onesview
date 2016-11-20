@@ -23,6 +23,7 @@
 
     <!-- main css -->
     <link type="text/css" href="<%=cp%>../../../css/style.css" rel="stylesheet">
+    <link type="text/css" href="<%=cp%>../../../css/kt_wiz.css" rel="stylesheet">
 
 
     <!-- modernizr -->
@@ -34,6 +35,11 @@
     <script src="<%=cp%>https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="<%=cp%>https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <style type="text/css">
+        *{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}
+    </style>
+
 </head>
 <body class style="overflow: visible;">
 <div id="preloader" style="display: none;">
@@ -52,6 +58,81 @@
             </a>
         </div>
     </header>
+
+    <div class="subcontents_wrap">
+        <h4 class="h_title_1 mg_t40" style="text-align: center">
+            <p class="main_txt">수원 케이티 위즈 파크</p>
+            <p class="sub_txt">
+                <span class="gray">kt wiz 홈 구장!</span>
+                <br>
+                <span class="red">수원 케이티 위즈 파크를 소개합니다.</span>
+            </p>
+        </h4>
+        <div class="stat_winning_wrap"></div>
+
+        <div class="ktwiz_introWrap">
+            <h5 class="txt_sty_02 mg_t40">수원 케이티 위즈 파크 전경</h5>
+                <div class="ktwiz_top1_wrap">
+                    <div class="kwImg">
+                        <div class="wizparkZone" style="position: relative; visibility: visible; margin: 0px auto; width: auto; height: auto;">
+                            <img src="<%=cp%>../../../img/kt.jpg">
+                        </div>
+                    </div>
+                    <dl class="kwList">
+                        <dt>면적</dt>
+                        <dd>
+                            <ul>
+                                <li>
+                                    <p>
+                                        부지면적: 12,301 ㎡ (3,721평)<br/>건출물면적: 19,939㎡ / 4층
+                                    </p>
+                                    <p></p>
+                                </li>
+                            </ul>
+                        </dd>
+                        <dt>관람석</dt>
+                        <dd class="line1">
+                            <ul>
+                                <li>
+                                    <p></p>
+                                    <p>20,122석(만석기준&nbsp;20,000석)</p>
+                                    <p></p>
+                                </li>
+                            </ul>
+                        </dd>
+                        <dt class="line2">
+                            펜스<br/>거리
+                        </dt>
+                        <dd>
+                            <ul>
+                                <li>
+                                    <p></p>
+                                    <p>
+                                        좌우거리: 98m<br/>중앙거리: 120m
+                                    </p>
+                                    <p></p>
+                                </li>
+                            </ul>
+                        </dd>
+                        <dt>위치</dt>
+                        <dd>
+                            <ul>
+                                <li>
+                                    <p></p>
+                                    <p>
+                                        경기도 수원시 장안구 경수대로 893(조원동) 수원 케이티 위즈 파크 (구: 경기도 수원시 장안구 조원동 775)<br/>
+                                    </p>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <div class="clear"></div>
+                </div>
+
+        </div>
+    </div>
+
+
     <div class="container main-container clearfix">
         <div class="col-md-pull-12">
             <img src="<%=cp%>../../../img/kt_wiz.jpg" style="max-width: 100%; height: auto;" usemap="#ktmap" position=relative; top=30px; left=30px;>
