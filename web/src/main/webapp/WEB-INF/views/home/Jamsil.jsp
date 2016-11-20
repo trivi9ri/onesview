@@ -1,4 +1,14 @@
+<<<<<<< HEAD
 
+=======
+<%--
+  Created by IntelliJ IDEA.
+  User: 최성신
+  Date: 2016-11-19
+  Time: 오후 3:16
+  To change this template use File | Settings | File Templates.
+--%>
+>>>>>>> origin/master
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%String cp = request.getContextPath();%>
@@ -57,4 +67,8 @@
     }
 </script>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> origin/master

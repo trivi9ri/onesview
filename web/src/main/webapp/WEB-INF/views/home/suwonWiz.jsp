@@ -47,7 +47,7 @@
 <div class="container-fluid">
     <header class="box-header">
         <div class="box-logo">
-            <a href="<%=cp%>../../../main.jsp">
+            <a href="/test/main.view">
                 <img src="../../../img/logo_ov.jpg" width="160" alt="Logo">
             </a>
         </div>
