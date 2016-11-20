@@ -65,7 +65,7 @@
             <p class="sub_txt">
                 <span class="gray">kt wiz 홈 구장!</span>
                 <br>
-                <span class="red">수원 케이티 위즈 파크를 소개합니다.</span>
+                <span class="red">수원 케이티 위즈 파크를 소개합니다.!</span>
             </p>
         </h4>
         <div class="stat_winning_wrap"></div>
