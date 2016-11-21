@@ -126,7 +126,7 @@ a.baro01:hover, a.baro01:focus, a.baro01:active {display:block; position: absolu
 .main_wrap {position:relative; width:100%; min-height:100%; padding:0 0 210px 0; background:url('/sports/site/baseball/images/main_bg_2.jpg') no-repeat center top;}
 .suball_wrap {position:relative; width:100%; min-height:100%; background:url('/sports/site/baseball/images/sub_top_bg.jpg') no-repeat center top;}
 .suball1_wrap {position:relative; width:100%; min-height:100%; background:url('/sports/site/baseball/images/sub_bg_2.jpg') no-repeat center top;}
-	.subcontents_wrap {position:relative; width:900px; min-height:800px; margin:auto; padding:80px 0 0 0;}
+	.subcontents_wrap {position:relative; width:900px; min-height:600px; margin:auto; padding:80px 0 0 0;}
 	.subcontents_wrap_login {position:relative; width:900px; min-height:200px; margin:auto; padding:80px 0 230px 0;}
 
 /*푸터*/
