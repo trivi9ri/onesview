@@ -49,17 +49,17 @@
 </head>
 <h1>101 Block</h1>
 <main>
-    <input id="tab1" type="radio" name="tabs" checked>
-    <label for="tab1">VR View</label>
+        <input id="tab1" type="radio" name="tabs" checked>
+        <label for="tab1">VR View</label>
 
-    <input id="tab2" type="radio" name="tabs">
-    <label for="tab2">후기</label>
+        <input id="tab2" type="radio" name="tabs">
+        <label for="tab2">후기</label>
 
-    <input id="tab3" type="radio" name="tabs">
-    <label for="tab3">안내</label>
-    <section id = "content1">
-    <p>
-    <img id="101" src="<%=cp%>../../../img/Area/101.PNG" width="500" height ="635" usemap="#Area101" alt>
+        <input id="tab3" type="radio" name="tabs">
+        <label for="tab3">안내</label>
+        <section id = "content1">
+        <p>
+    <img id="101" src="<%=cp%>../../../img/Area/101.PNG" width="500" height ="635" usemap="#Area101" alt="">
     <map name = "Area101">
         <area id="ri101f" shape="poly" coords="77,5,55,11,39,17,21,36,8,59,3,79,3,192,495,192,495,77,486,51,480,42,465,21,443,10,422,5" href="#VRModal" alt="101f" data-toggle="modal" onclick="getId('ri101f')">
         <area id="101m" shape="poly" coords="3,210,495,210,495,410,3,410" href="#VRModal" alt="101m" data-toggle="modal" onclick="getId('101m')">
