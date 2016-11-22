@@ -268,15 +268,12 @@
                             <area id="CT2" shape="poly" coords="273,376,264,385,270,391,286,400,290,388,281,383" href="#CT2" alt="CT2">
                             <area id="CT2-1" shape="poly" coords="293,388,293,401,306,404,325,401,321,388,309,390" href="#CT2-1" alt="CT2-1">
                             <area id="CT2-2" shape="poly" coords="324,387,330,399,341,394,351,385,342,377,335,382" href="#CT2-2" alt="CT2-2">
-
                         </map>
+
                     </div>
                     원하는 좌석 위치를 클릭해주세요.
         </div>
     </div>
-
-
-
 </div>
 <script src="<%=cp%>http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src ="<%=cp%>../../../js/jquery.rwdImageMaps.min.js"></script>
@@ -285,15 +282,9 @@
         $('img[usemap]').rwdImageMaps();
 
         $('area').on('click', function() {
-           window.location.href='../../../Area/'+$(this).attr('id')+'.jsp';
+            window.location.href='../../../Area/'+$(this).attr('id')+'.jsp';
         });
     });
-</script>
-<script>
-    function getTagId(e){
-        var a =  document.getElementById(e).id;
-        window.location.href='../../../Area/'+a+'.jsp';
-    }
 </script>
 
 </body>

@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
-  User: KSB_
-  Date: 2016-11-19
-  Time: 오후 3:57
+  User: Administrator
+  Date: 2016-11-22
+  Time: 오전 11:32
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>102 Block</title>
+    <title>105 Block</title>
     <link rel="icon" href="<%=cp%>../../../img/fav.png" type="image/x-icon">
 
     <!-- Bootstrap -->
@@ -47,7 +47,7 @@
         .back{ background-size:contain;}
     </style>
 </head>
-<h1>102 Block</h1>
+<h1>105 Block</h1>
 <main>
     <input id="tab1" type="radio" name="tabs" checked>
     <label for="tab1">VR View</label>
@@ -59,11 +59,11 @@
     <label for="tab3">안내</label>
     <section id = "content1">
         <p>
-            <img id="102" src="<%=cp%>../../../img/Area/102.PNG" width="500" height ="635" usemap="#Area102" alt>
-            <map name = "Area102">
-                <area id="ri102f" shape="poly" coords="77,5,55,11,39,17,21,36,8,59,3,79,3,192,495,192,495,77,486,51,480,42,465,21,443,10,422,5" href="#VRModal" alt="102" data-toggle="modal" onclick="getId('ri102f')">
-                <area id="ri102m" shape="poly" coords="3,210,495,210,495,410,3,410" href="#VRModal" alt="102m" data-toggle="modal" onclick="getId('ri102m')">
-                <area id="102r" shape="poly" coords="3,430,3,563,9,584,14,595,26,610,41,621,68,630,426,630,454,624,478,604,490,581,495,560,495,430" href="#VRModal" alt="102r" data-toggle="modal" onclick="getId('102r')">
+            <img id="105" src="<%=cp%>../../../img/Area/105.PNG" width="500" height ="635" usemap="#Area105" alt>
+            <map name = "Area105">
+                <area id="ri105f" shape="poly" coords="77,5,55,11,39,17,21,36,8,59,3,79,3,192,495,192,495,77,486,51,480,42,465,21,443,10,422,5" href="#VRModal" alt="105f" data-toggle="modal" onclick="getId('ri105f')">
+                <area id="ri105m" shape="poly" coords="3,210,495,210,495,410,3,410" href="#VRModal" alt="105m" data-toggle="modal" onclick="getId('ri105m')">
+                <area id="105r" shape="poly" coords="3,430,3,563,9,584,14,595,26,610,41,621,68,630,426,630,454,624,478,604,490,581,495,560,495,430" href="#VRModal" alt="105r" data-toggle="modal" onclick="getId('105r')">
             </map>
         </p>
     </section>
