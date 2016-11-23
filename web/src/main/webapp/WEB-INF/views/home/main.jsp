@@ -65,7 +65,7 @@
 
     <!-- box-intro -->
     <section class="box-intro">
-        <div class="table-cell" style="position: relative; right: 5%">
+        <div class="table-cell" style="position: relative">
             <h1 class="box-headline letters rotate-2">
                     <span class="box-words-wrapper" >
                         <b class="is-visible">one's.</b>
