@@ -21,8 +21,8 @@ a:link {color:#686868; text-decoration:none;}
 a:hover, a:focus, a:active {color:#666; text-decoration:underline;}
 
 /* NanumGothic Web Font Start */
-@font-face{font-family: 'NanumGothic';font-style: normal;font-weight: normal;src:url("/sports/_css/NanumGothic.eot");src:url("/sports/_css/NanumGothic.eot?") format('eot');src: local('☺'), url("/sports/_css/NanumGothic.eot"), url('/sports/_css/NanumGothic.woff') format('woff');}
-@font-face{font-family: 'NanumGothicBold';font-style: normal;font-weight: bold;src:url("/sports/_css/NanumGothicBold.eot");src:url("/sports/_css/NanumGothicBold.eot?") format('eot');src: local('☺'),url("/sports/_css/NanumGothicBold.eot"),url('/sports/_css/NanumGothicBold.woff') format('woff');}
+@font-face{font-family: 'NanumGothic';font-style: normal;font-weight: normal;src:url("/fonts/NanumGothic.eot");src:url("/fonts/NanumGothic.eot?") format('eot');src: local('☺'), url("/fonts/NanumGothic.eot"), url('/fonts/NanumGothic.woff') format('woff');}
+@font-face{font-family: 'NanumGothicBold';font-style: normal;font-weight: bold;src:url("/fonts/NanumGothicBold.eot");src:url("/fonts/NanumGothicBold.eot?") format('eot');src: local('☺'),url("/fonts/NanumGothicBold.eot"),url('/fonts/NanumGothicBold.woff') format('woff');}
 /* NanumGothic Web Font End */
 
 .blind {visibility:hidden; position:absolute; font-size:0; width:0; height:0; line-height:0; margin:0; padding:0;}
