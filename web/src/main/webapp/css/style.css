@@ -667,7 +667,7 @@ b i:last-child {
     0% {
         opacity: 1;
         -webkit-transform: translateZ(-20px) rotateX(-0deg);
-        transform: translateZ(-20px) rotateX(0);
+        transform: translateZ(-20px) rotateX(-0deg);
     }
     60% {
         opacity: 0;
@@ -686,7 +686,6 @@ b i:last-child {
 ==================================================*/
 
 .portfolio .categories-grid span {
-    font-size: 30px;
     margin-bottom: 30px;
     display: inline-block;
 }
@@ -891,8 +890,8 @@ footer img {
 .top-bar {
     color: #333;
     padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8));
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8));
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;

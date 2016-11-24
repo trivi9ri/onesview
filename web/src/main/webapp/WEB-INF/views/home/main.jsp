@@ -23,6 +23,8 @@
 
     <!-- main css -->
     <link type="text/css" href="<%=cp%>../../../css/style.css" rel="stylesheet">
+    <%--<link type="text/css" href="<%=cp%>../../../css/slidebars.css" rel="stylesheet">--%>
+    <%--<link type="text/css" href="<%=cp%>../../../css/SlidebarStyle.css" rel="stylesheet">--%>
 
 
     <!-- modernizr -->
@@ -35,11 +37,7 @@
     <script src="<%=cp%>https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
 <body>
-
-
-
 
 <div class="container-fluid" style="width: 90%; float: right">
     <!-- box header -->
@@ -56,13 +54,8 @@
         <!-- box-primary-nav-trigger -->
     </header>
     <!-- end box header -->
-
     <!-- nav -->
-
     <!-- end nav -->
-
-
-
     <!-- box-intro -->
     <section class="box-intro">
         <div class="table-cell" style="position: relative; right: 5%">
@@ -116,6 +109,8 @@
 
 <!-- jQuery -->
 <script src="<%=cp%>../../../js/jquery-2.1.1.js"></script>
+<%--<script src="<%=cp%>../../../js/scripts.js"></script>--%>
+<%--<script src="<%=cp%>../../../js/isotope.pkgd.min.js"></script>--%>
 <!--  plugins -->
 <script src="<%=cp%>../../../js/bootstrap.min.js"></script>
 <!--<script src="<%=cp%>../../../js/menu.js"></script>-->

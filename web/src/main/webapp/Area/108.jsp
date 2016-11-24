@@ -59,11 +59,14 @@
     <label for="tab3">안내</label>
     <section id = "content1">
         <p>
-            <img id="108" src="<%=cp%>../../../img/Area/108.PNG" width="500" height ="635" usemap="#Area108" alt>
+        <h2 class="centered" style="color:black">Block을 클릭해주세요</h2>
+        <br/>
+        <img class="centered" id="108" src="<%=cp%>../../../img/Area/108.PNG" border="0" width="100%" usemap="#Area108" >
+
             <map name = "Area108">
-                <area id="ri108f" shape="poly" coords="77,5,55,11,39,17,21,36,8,59,3,79,3,192,495,192,495,77,486,51,480,42,465,21,443,10,422,5" href="#VRModal" alt="108f" data-toggle="modal" onclick="getId('ri108f')">
-                <area id="ri108m" shape="poly" coords="3,210,495,210,495,410,3,410" href="#VRModal" alt="108m" data-toggle="modal" onclick="getId('ri108m')">
-                <area id="108r" shape="poly" coords="3,430,3,563,9,584,14,595,26,610,41,621,68,630,426,630,454,624,478,604,490,581,495,560,495,430" href="#VRModal" alt="108r" data-toggle="modal" onclick="getId('108r')">
+                <area id="ri108f" shape="poly" coords="40,1,23,6,8,21,1,39,1,100,271,100,271,39,263,20,252,10,231,1" href="#VRModal" alt="108f" data-toggle="modal" onclick="getId('ri108f')">
+                <area id="ri108m" shape="poly" coords="1,110,271,110,271,210,1,210" href="#VRModal" alt="108m" data-toggle="modal" onclick="getId('ri108m')">
+                <area id="108r" shape="poly" coords="1,220,1,306,9,326,20,337,38,343,234,343,256,332,265,321,272,305,272,220" href="#VRModal" alt="108r" data-toggle="modal" onclick="getId('108r')">
             </map>
         </p>
     </section>
@@ -111,16 +114,9 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-<script src="<%=cp%>http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src ="<%=cp%>../../../js/jquery.rwdImageMaps.min.js"></script>
-<script>
-    $(document).ready(function(e) {
-        $('img[usemap]').rwdImageMaps();
-
-//        $('area').on('click', function() {
-//            window.location.href='../../../Area/'+$(this).attr('id')+'.jsp';
-//        });
-    });
+<script type="text/javascript" src ="<%=cp%>../js/imageMapResizer.min.js"></script>
+<script type = "text/javascript">
+    imageMapResize();
 </script>
 <script>
     function getId(e) {

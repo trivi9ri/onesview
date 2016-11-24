@@ -135,7 +135,7 @@
                 <h5 class="txt_sty_02 mg_t40" style="padding-bottom: 10px">수원 케이티 위즈 파크 VR 뷰</h5>
                     <div class="col-md-pull-12">
                         <%--<img id="ktwiz" src="<%=cp%>../../../img/kt_wiz.jpg" style="max-width: 100%; height: auto;" usemap="#ktmap" position=relative; top=30px; left=30px;>--%>
-                        <img id = "ktwiz" src="<%=cp%>../../../img/kt_wiz.jpg" width="900" height="587" usemap="#ktmap" alt>
+                        <img id = "ktwiz" src="<%=cp%>../../../img/kt_wiz.jpg" border="0" width="900" height="587" usemap="#ktmap" alt>
                         <map name="ktmap">
                             <area id="101" shape="poly" coords="458,202,460,198,472,198,472,211,477,205,478,196,467,208" href="#101" alt="101">
                             <area id="102" shape="poly" coords="450,214,465,224,471,215,457,204" href="#102" alt="102">
