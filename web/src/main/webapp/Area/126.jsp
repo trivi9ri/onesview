@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>120 Block</title>
+    <title>126 Block</title>
     <link rel="icon" href="<%=cp%>../../../img/fav.png" type="image/x-icon">
 
     <!-- Bootstrap -->
@@ -47,7 +47,7 @@
         .back{ background-size:contain;}
     </style>
 </head>
-<h1>120 Block</h1>
+<h1>126 Block</h1>
 <main>
     <input id="tab1" type="radio" name="tabs" checked>
     <label for="tab1">VR View</label>
@@ -61,12 +61,12 @@
         <p>
         <h2 class="centered" style="color:black">Block을 클릭해주세요</h2>
         <br/>
-            <img id="120" class="centered" src="<%=cp%>../../../img/Area/120.PNG" border="0" width="100%" usemap="#Area120" >
-            <map name = "Area120">
-                <area id="ri120f" shape="poly" coords="40,1,23,6,8,21,1,39,1,100,271,100,271,39,263,20,252,10,231,1" href="#VRModal" alt="120f" data-toggle="modal" onclick="getId('ri120f')">
-                <area id="ri120m" shape="poly" coords="1,110,271,110,271,210,1,210" href="#VRModal" alt="120m" data-toggle="modal" onclick="getId('ri120m')">
-                <area id="120r" shape="poly" coords="1,220,1,306,9,326,20,337,38,343,234,343,256,332,265,321,272,305,272,220" href="#VRModal" alt="120r" data-toggle="modal" onclick="getId('120r')">
-            </map>
+        <img id="126" class="centered" src="<%=cp%>../../../img/Area/126.PNG" border="0" width="100%" usemap="#Area126" >
+        <map name = "Area126">
+            <area id="ri126f" shape="poly" coords="40,1,23,6,8,21,1,39,1,100,271,100,271,39,263,20,252,10,231,1" href="#VRModal" alt="126f" data-toggle="modal" onclick="getId('ri126f')">
+            <area id="ri126m" shape="poly" coords="1,110,271,110,271,210,1,210" href="#VRModal" alt="126m" data-toggle="modal" onclick="getId('ri126m')">
+            <area id="126r" shape="poly" coords="1,220,1,306,9,326,20,337,38,343,234,343,256,332,265,321,272,305,272,220" href="#VRModal" alt="126r" data-toggle="modal" onclick="getId('126r')">
+        </map>
         </p>
     </section>
     <section id="content2">
@@ -130,3 +130,4 @@
 </script>
 </body>
 </html>
+
