@@ -195,7 +195,7 @@
                             <area id="225" shape="poly" coords="247,368,232,378,238,387,252,377" href="#225" alt="225">
                             <area id="226" shape="poly" coords="236,355,222,364,229,376,244,365" href="#226" alt="226">
                             <area id="227" shape="poly" coords="226,343,213,352,219,361,233,352" href="#227" alt="227">
-                            <area id="228" shape="poly" coords="218,394,371,402,385,416,394,406" href="#228" alt="228">
+                            <area id="228" shape="poly" coords="219,331,205,341,211,350,225,340" href="#228" alt="228">
                             <area id="229" shape="poly" coords="208,317,194,327,202,338,217,328" href="#229" alt="229">
                             <area id="230" shape="poly" coords="200,305,186,315,193,323,206,314" href="#230" alt="230">
                             <area id="231" shape="poly" coords="190,290,176,301,184,311,198,302" href="#231" alt="231">
