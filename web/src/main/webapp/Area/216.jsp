@@ -63,9 +63,9 @@
         <br/>
         <img id="216" class="centered" src="<%=cp%>../../../img/Area/216.png" border="0" width="100%" usemap="#Area216" >
         <map name = "Area216">
-            <area id="ri216f" shape="poly" coords="40,1,23,6,8,21,1,39,1,100,271,100,271,39,263,20,252,10,231,1" href="#VRModal" alt="216f" data-toggle="modal" onclick="getId('ri216f')">
-            <area id="216m" shape="poly" coords="1,110,271,110,271,210,1,210" href="#VRModal" alt="216m" data-toggle="modal" onclick="getId('ri216m')">
-            <area id="ri216r" shape="poly" coords="1,220,1,306,9,326,20,337,38,343,234,343,256,332,265,321,272,305,272,220" href="#VRModal" alt="216r" data-toggle="modal" onclick="getId('ri216r')">
+            <area id="216f" shape="poly" coords="40,1,23,6,8,21,1,39,1,100,271,100,271,39,263,20,252,10,231,1" href="#VRModal" alt="216f" data-toggle="modal" onclick="getId('216f')">
+            <area id="216m" shape="poly" coords="1,110,271,110,271,210,1,210" href="#VRModal" alt="216m" data-toggle="modal" onclick="getId('216m')">
+            <area id="216r" shape="poly" coords="1,220,1,306,9,326,20,337,38,343,234,343,256,332,265,321,272,305,272,220" href="#VRModal" alt="216r" data-toggle="modal" onclick="getId('216r')">
         </map>
         </p>
     </section>

@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: Administrator
-  Date: 2016-11-28
-  Time: 오후 8:25
+  Date: 2016-11-29
+  Time: 오전 12:34
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>212 Block</title>
+    <title>317 Block</title>
     <link rel="icon" href="<%=cp%>../../../img/fav.png" type="image/x-icon">
 
     <!-- Bootstrap -->
@@ -47,7 +47,7 @@
         .back{ background-size:contain;}
     </style>
 </head>
-<h1>212 Block</h1>
+<h1>317 Block</h1>
 <main>
     <input id="tab1" type="radio" name="tabs" checked>
     <label for="tab1">VR View</label>
@@ -61,11 +61,11 @@
         <p>
         <h2 class="centered" style="color:black">Block을 클릭해주세요</h2>
         <br/>
-        <img id="212" class="centered" src="<%=cp%>../../../img/Area/212.PNG" border="0" width="100%" usemap="#Area212" >
-        <map name = "Area212">
-            <area id="212f" shape="poly" coords="40,1,23,6,8,21,1,39,1,100,271,100,271,39,263,20,252,10,231,1" href="#VRModal" alt="212f" data-toggle="modal" onclick="getId('212f')">
-            <area id="212m" shape="poly" coords="1,110,271,110,271,210,1,210" href="#VRModal" alt="212m" data-toggle="modal" onclick="getId('212m')">
-            <area id="212r" shape="poly" coords="1,220,1,306,9,326,20,337,38,343,234,343,256,332,265,321,272,305,272,220" href="#VRModal" alt="212r" data-toggle="modal" onclick="getId('212r')">
+        <img id="317" class="centered" src="<%=cp%>../../../img/Area/317.png" border="0" width="100%" usemap="#Area317" >
+        <map name = "Area317">
+            <area id="ri317f" shape="poly" coords="40,1,23,6,8,21,1,39,1,100,271,100,271,39,263,20,252,10,231,1" href="#VRModal" alt="3173f" data-toggle="modal" onclick="getId('r317f')">
+            <area id="ri317m" shape="poly" coords="1,110,271,110,271,210,1,210" href="#VRModal" alt="317m" data-toggle="modal" onclick="getId('ri317m')">
+            <area id="317r" shape="poly" coords="1,220,1,306,9,326,20,337,38,343,234,343,256,332,265,321,272,305,272,220" href="#VRModal" alt="317r" data-toggle="modal" onclick="getId('317r')">
         </map>
         </p>
     </section>

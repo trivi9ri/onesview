@@ -63,8 +63,8 @@
         <br/>
         <img id="218" class="centered" src="<%=cp%>../../../img/Area/218.png" border="0" width="100%" usemap="#Area218" >
         <map name = "Area218">
-            <area id="ri218f" shape="poly" coords="40,1,23,6,8,21,1,39,1,100,271,100,271,39,263,20,252,10,231,1" href="#VRModal" alt="218f" data-toggle="modal" onclick="getId('ri218f')">
-            <area id="ri218m" shape="poly" coords="1,110,271,110,271,210,1,210" href="#VRModal" alt="218m" data-toggle="modal" onclick="getId('ri218m')">
+            <area id="218f" shape="poly" coords="40,1,23,6,8,21,1,39,1,100,271,100,271,39,263,20,252,10,231,1" href="#VRModal" alt="218f" data-toggle="modal" onclick="getId('218f')">
+            <area id="218m" shape="poly" coords="1,110,271,110,271,210,1,210" href="#VRModal" alt="218m" data-toggle="modal" onclick="getId('218m')">
             <area id="218r" shape="poly" coords="1,220,1,306,9,326,20,337,38,343,234,343,256,332,265,321,272,305,272,220" href="#VRModal" alt="218r" data-toggle="modal" onclick="getId('218r')">
         </map>
         </p>
