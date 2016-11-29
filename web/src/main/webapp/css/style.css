@@ -1154,13 +1154,22 @@ textarea:focus {
 
 @media only screen and (max-width: 520px) {
     .box-headline {
-        font-size: 80px;
+        font-size: 70px;
     }
     .box-intro h5 {
         font-size: 12px;
     }
     .main-container {
         padding: 50px 0;
+    }
+    .portfolio_filter {
+        width: 10%;
+    }
+    .box-intro{
+        position: fixed;
+    }
+    .categories-grid{
+        font-size: 13px;
     }
 }
 
@@ -1174,6 +1183,15 @@ textarea:focus {
     .top-bar h1 {
         font-size: 30px;
         line-height: 30px;
+    }
+    .portfolio_filter {
+        width: 10%;
+    }
+    .box-intro{
+        position: fixed;
+    }
+    .categories-grid{
+        font-size: 12px;
     }
 }
 
