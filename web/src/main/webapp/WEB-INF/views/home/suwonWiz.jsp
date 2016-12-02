@@ -268,6 +268,24 @@
                             <area id="CT2" shape="poly" coords="273,376,264,385,270,391,286,400,290,388,281,383" href="#CT2" alt="CT2">
                             <area id="CT2-1" shape="poly" coords="293,388,293,401,306,404,325,401,321,388,309,390" href="#CT2-1" alt="CT2-1">
                             <area id="CT2-2" shape="poly" coords="324,387,330,399,341,394,351,385,342,377,335,382" href="#CT2-2" alt="CT2-2">
+                            <area id="outfield1" shape="poly" coords="120,191,134,193,136,182,123,181" href="#outfield1">
+                            <area id="outfield2" shape="poly" coords="126,175,146,182,150,171,128,164" href="#outfield2">
+                            <area id="outfield3" shape="poly" coords="130,159,144,165,147,158,133,152" href="#outfield3">
+                            <area id="outfield_grass1" shape="poly" coords="145,128,165,140,173,129,152,118" href="#outfield_grass1">
+                            <area id="outfield_grass2" shape="poly" coords="161,101,178,123,191,106,172,94" href="#outfield_grass2">
+                            <area id="outfield_grass3" shape="poly" coords="175,90,191,106,205,95,193,77" href="#outfield_grass3">
+                            <area id="outfield_grass4" shape="poly" coords="193,77,203,89,207,85,202,70" href="#outfield_grass4">
+                            <area id="outfield_grass5" shape="poly" coords="201,69,212,91,227,81,219,59" href="#outfield_grass5">
+                            <area id="outfield_grass6" shape="poly" coords="231,78,246,72,234,52,222,57" href="#outfield_grass6">
+                            <area id="outfield_grass7" shape="poly" coords="253,69,281,62,278,40,246,47" href="#outfield_grass7">
+                            <area id="outfield_grass8" shape="poly" coords="340,56,347,59,344,65,354,68,363,48,343,42" href="#outfield_grass8">
+                            <area id="outfield_grass9" shape="poly" coords="366,50,360,70,389,83,402,62" href="#outfield_grass9">
+                            <area id="outfield_grass10" shape="poly" coords="403,63,396,86,410,96,426,78" href="#outfield_grass10">
+                            <area id="outfield_grass11" shape="poly" coords="432,85,420,104,433,118,452,105" href="#outfield_grass11">
+                            <area id="outfield_grass12" shape="poly" coords="454,108,441,116,445,124,440,130,448,140,468,128,455,108" href="#outfield_grass12">
+                            <area id="BBQ" shape="poly" coords="134,150,144,154,155,159,165,142,145,130" href="#BBQ" alt="BBQ">
+
+
                         </map>
 
                     </div>
