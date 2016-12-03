@@ -58,24 +58,19 @@
     <input id="tab3" type="radio" name="tabs">
     <label for="tab3">안내</label>
     <section id = "content1">
-    <p>
+        <p>
         <h2 class="centered" style="color:black">Block을 클릭해주세요</h2>
         <br/>
-    <img id="101" class="centered" src="<%=cp%>../../../img/Area/101.PNG" border="0" width="100%"  usemap="#Area101" >
-    <map name = "Area101">
-        <area id="ri101f" shape="poly" coords="40,1,23,6,8,21,1,39,1,100,271,100,271,39,263,20,252,10,231,1" href="#VRModal" data-toggle="modal" onclick="getId('ri101f')">
-        <area id="101m" shape="poly" coords="1,110,271,110,271,210,1,210" href="#VRModal" data-toggle="modal" onclick="getId('101m')">
-        <area id="101r" shape="poly" coords="1,220,1,306,9,326,20,337,38,343,234,343,256,332,265,321,272,305,272,220" href="#VRModal" data-toggle="modal" onclick="getId('101r')">
-    </map>
-    </p>
+        <img id="101" class="centered" src="<%=cp%>../../../img/Area/101.PNG" border="0" width="100%"  usemap="#Area101" >
+        <map name = "Area101">
+            <area id="ri101f" shape="poly" coords="40,1,23,6,8,21,1,39,1,100,271,100,271,39,263,20,252,10,231,1" href="#VRModal" data-toggle="modal" onclick="getId('ri101f')">
+            <area id="101m" shape="poly" coords="1,110,271,110,271,210,1,210" href="#VRModal" data-toggle="modal" onclick="getId('101m')">
+            <area id="101r" shape="poly" coords="1,220,1,306,9,326,20,337,38,343,234,343,256,332,265,321,272,305,272,220" href="#VRModal" data-toggle="modal" onclick="getId('101r')">
+        </map>
+        </p>
     </section>
-    <section id="content2">
-        <p>
-            Bacon ipsum dolor sit amet landjaeger sausage brisket, jerky drumstick fatback boudin ball tip turducken. Pork belly meatball t-bone bresaola tail filet mignon kevin turkey ribeye shank flank doner cow kielbasa shankle. Pig swine chicken hamburger, tenderloin turkey rump ball tip sirloin frankfurter meatloaf boudin brisket ham hock. Hamburger venison brisket tri-tip andouille pork belly ball tip short ribs biltong meatball chuck. Pork chop ribeye tail short ribs, beef hamburger meatball kielbasa rump corned beef porchetta landjaeger flank. Doner rump frankfurter meatball meatloaf, cow kevin pork pork loin venison fatback spare ribs salami beef ribs.
-        </p>
-        <p>
-            Jerky jowl pork chop tongue, kielbasa shank venison. Capicola shank pig ribeye leberkas filet mignon brisket beef kevin tenderloin porchetta. Capicola fatback venison shank kielbasa, drumstick ribeye landjaeger beef kevin tail meatball pastrami prosciutto pancetta. Tail kevin spare ribs ground round ham ham hock brisket shoulder. Corned beef tri-tip leberkas flank sausage ham hock filet mignon beef ribs pancetta turkey.
-        </p>
+    <section id="content2" name="content2">
+        <iframe src="http://localhost:8080/Board/list.jsp" frameborder=1 style="width: 100%;height: 60%"></iframe>
     </section>
 
     <section id="content3">
@@ -112,7 +107,7 @@
 </div><!-- /.modal -->
 <script type="text/javascript" src ="<%=cp%>../js/imageMapResizer.min.js"></script>
 <script type = "text/javascript">
-   imageMapResize();
+    imageMapResize();
 </script>
 <script>
     function getId(e) {

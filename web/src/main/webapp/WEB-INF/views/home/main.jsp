@@ -108,11 +108,10 @@
 <!-- end back to top -->
 
 
-
+<%--<script src="<%=cp%>../../../js/scripts.js"></script>--%>
+<%--<script src="<%=cp%>../../../js/slidebars.js"></script>--%>
 <!-- jQuery -->
 <script src="<%=cp%>../../../js/jquery-2.1.1.js"></script>
-<%--<script src="<%=cp%>../../../js/scripts.js"></script>--%>
-<%--<script src="<%=cp%>../../../js/isotope.pkgd.min.js"></script>--%>
 <!--  plugins -->
 <script src="<%=cp%>../../../js/bootstrap.min.js"></script>
 <!--<script src="<%=cp%>../../../js/menu.js"></script>-->
