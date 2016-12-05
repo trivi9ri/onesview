@@ -75,13 +75,46 @@
 
     <section id="content3">
         <p>
-            Bacon ipsum dolor sit amet beef venison beef ribs kielbasa. Sausage pig leberkas, t-bone sirloin shoulder bresaola. Frankfurter rump porchetta ham. Pork belly prosciutto brisket meatloaf short ribs.
+            <h3 class="centered">구장 내 음식점 안내</h3>
+            <h5 class="centered" style="color:grey">각 zone을 선택하시면 구장 내 음식점 배치를 알 수 있습니다.</h5>
+            <img id="Food" class="centered" src="<%=cp%>../../../img/Food/food.png" border="0" width="100%" usemap="#FoodMap" >
+            <map name = "FoodMap">
+                <area id = "red" shape = "poly" coords ="449,384,452,411,452,426,566,403,674,350,654,316,562,353" href="#ImgModal" data-toggle="modal" onclick="ImgGetId('red')">
+                <area id = "white" shape="poly" coords = "221,310,195,348,239,376,294,399,370,421,418,428,423,386,329,358,242,323,220,309" href="#ImgModal" data-toggle="modal" onclick="ImgGetId('white')">
+                <area id = "blue" shape="poly" coords = "113,191,48,227,88,267,168,330,210,278,157,236" href="#ImgModal" data-toggle="modal" onclick="ImgGetId('blue')">
+                <area id = "green" shape="poly" coords = "655,277,700,333,757,288,819,228,752,194,705,237" href="#ImgModal" data-toggle="modal" onclick="ImgGetId('green')">
+                <area id = "mandoo" shape="poly" coords = "253,668,255,682,402,683,400,666" href="#ImgModal" data-toggle="modal" onclick="ImgGetId('mandoo')">
+
+            </map>
         </p>
-        <p>
-            Brisket meatball turkey short loin boudin leberkas meatloaf chuck andouille pork loin pastrami spare ribs pancetta rump. Frankfurter corned beef beef tenderloin short loin meatloaf swine ground round venison.
-        </p>
+
     </section>
 </main>
+
+<div class="modal" id="ImgModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Food</h4>
+            </div>
+            <div class="modal-body">
+                <iframe
+                        id = "Img"
+                        frameborder="0"
+                        width="100%"
+                        height="80%"
+                        scrolling="yes"
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Close</a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 <div class="modal" id="VRModal">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -94,7 +127,7 @@
                         id = "VR"
                         frameborder="0"
                         width="100%"
-                        height="80%"
+                        height="100%"
                         scrolling="no"
                         allowfullscreen >
                 </iframe>
@@ -120,5 +153,14 @@
         $('#VR').attr('src',VrUrl);
     }
 </script>
+<script>
+    function ImgGetId(e) {
+        var id = document.getElementById(e).id;
+            var VrUrl = '../img/Food/'+document.getElementById(e).id+'.png';
+        $('#Img').attr('src',VrUrl);
+    }
+</script>
+
+
 </body>
 </html>

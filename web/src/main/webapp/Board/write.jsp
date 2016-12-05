@@ -48,11 +48,11 @@ function writeCheck()
   <tr>
    <td>
     <table width="100%" cellpadding="0" cellspacing="0" border="0">
-     <tr style="background:url('../img/table_mid.gif') repeat-x; text-align:center;">
-      <td width="5"><img src="../img/table_left.gif" width="5" height="30" /></td>
+     <tr style="background:url('../img/Board/table_mid.gif') repeat-x; text-align:center;">
+      <td width="5"><img src="../img/Board/table_left.gif" width="5" height="30" /></td>
       <td>±Û¾²±â</td>
       
-      <td width="5"><img src="../img/table_right.gif" width="5" height="30" /></td>
+      <td width="5"><img src="../img/Board/table_right.gif" width="5" height="30" /></td>
      </tr>
     </table>
    <table>

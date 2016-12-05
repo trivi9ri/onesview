@@ -2,6 +2,7 @@
     pageEncoding="EUC-KR"%>
 <%@ page import="java.sql.*"%>
 <%
+    String cp = request.getContextPath();
 	Class.forName("com.mysql.jdbc.Driver"); 
 	String url = "jdbc:mysql://133.130.109.147:3306/onesview2016";      // URL, "jdbc:mysql://localhost:3306/(mySql에서 만든 DB명)" << 입력 이때 3306은 mysql기본 포트
 	String id = "root";
@@ -44,10 +45,10 @@
   <tr>
    <td>
     <table width="100%" cellpadding="0" cellspacing="0" border="0">
-     <tr style="background:url('img/table_mid.gif') repeat-x; text-align:center;">
-      <td width="5"><img src="img/table_left.gif" width="5" height="30" /></td>
+     <tr style="background:url('<%=cp%>../img/Board/table_mid.gif') repeat-x; text-align:center;">
+      <td width="5"><img src="<%=cp%>../img/Board/table_left.gif" width="5" height="30" /></td>
       <td>내 용</td>
-      <td width="5"><img src="img/table_right.gif" width="5" height="30" /></td>
+      <td width="5"><img src="<%=cp%>../img/Board/table_right.gif" width="5" height="30" /></td>
      </tr>
     </table>
    <table width="413">

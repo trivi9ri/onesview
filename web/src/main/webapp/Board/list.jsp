@@ -2,6 +2,7 @@
 <%@ page import = "java.sql.*" %>     <!-- JSP에서 JDBC의 객체를 사용하기 위해 java.sql 패키지를 import 한다 -->
 <%@ page import="java.sql.*,java.text.SimpleDateFormat,java.util.Date"%>
 <%
+    String cp = request.getContextPath();
 	final int ROWSIZE = 4;  // 한페이지에 보일 게시물 수
 	final int BLOCK = 5; // 아래에 보일 페이지 최대개수 1~5 / 6~10 / 11~15 식으로 5개로 고정
 
@@ -88,13 +89,13 @@ rs = stmt.executeQuery(listdb02); */
   <tr height="5"><td width="5"></td></tr>
   
  <tr style=" text-align:center;">
-   <td width="5"><img src="img/table_left.gif" width="5" height="30" /></td>
+   <td width="5"><img src="../img/Board/table_left.gif" width="5" height="30" /></td>
    <td width="73">번호</td>
    <td width="379">제목</td>
    <td width="73">작성자</td>
    <td width="164">작성일</td>
    <td width="58">조회수</td>
-   <td width="7"><img src="img/table_right.gif" width="5" height="30" /></td>
+   <td width="7"><img src="../img/Board/table_right.gif" width="5" height="30" /></td>
    
   </tr>
 <%
@@ -129,7 +130,7 @@ rs = stmt.executeQuery(listdb02); */
 %>		&nbsp;&nbsp;&nbsp;<%
 	}
 	if(indent!=0){
-%>		<img src='img/reply_icon.gif' />
+%>		<img src="<%=cp%>../../../img/Board/reply_icon.gif"/>
 <%
 	}
 %> 
