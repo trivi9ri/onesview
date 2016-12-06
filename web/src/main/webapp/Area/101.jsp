@@ -70,7 +70,8 @@
         </p>
     </section>
     <section id="content2" name="content2">
-        <iframe src="http://133.130.109.147:8080/Board/list.jsp" frameborder=1 style="width: 100%;height: 60%"></iframe>
+        <iframe src="http://133.130.109.147:8080/Board/list.jsp" frameborder=1 style="width: 100%;height: 50%"></iframe>
+
     </section>
 
     <section id="content3">

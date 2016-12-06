@@ -42,9 +42,9 @@ function writeCheck()
 	<link rel="stylesheet" href="../css/style.css" />
 	<script type="text/javascript" src="../js/prefixfree.min.js"></script>
 </head>	
- <body>
+ <body style="color: black;">
 <table>
-<form name=writeform method=post action="write_ok.jsp">
+<form name=writeform method=post action="write_ok.jsp" >
   <tr>
    <td>
     <table width="100%" cellpadding="0" cellspacing="0" border="0">
