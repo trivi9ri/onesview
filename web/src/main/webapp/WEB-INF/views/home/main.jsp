@@ -85,6 +85,7 @@
             <nav class="categories text-center">
                 <ul class="portfolio_filter">
                     <li style="color: white">aaaaaaaaaaaa</li>
+                    <li><a href="/test/service.view">INTRODUCTION</a></li>
                     <li><a href="/test/KTwiz.view">수원KT위즈파크</a></li>
                     <li><a href="/test/Jamsil.view">잠실야구장</a></li>
                     <li><a href="/test/Gocheok.view">고척스카이돔</a></li>

@@ -57,6 +57,9 @@
 
     <input id="tab3" type="radio" name="tabs">
     <label for="tab3">안내</label>
+
+    <input id="tab4" type="radio" name="tabs">
+    <label for="tab4"><a href="/test/KTwiz.view" style="color: #999">구장 안내</a></label>
     <section id = "content1">
         <p>
         <h2 class="centered" style="color:black">Block을 클릭해주세요</h2>
@@ -90,6 +93,7 @@
         </p>
 
     </section>
+
 </main>
 
 <div class="modal" id="ImgModal">

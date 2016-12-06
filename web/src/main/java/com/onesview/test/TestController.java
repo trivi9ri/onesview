@@ -30,6 +30,11 @@ public class TestController {
         return "home/Jamsil";
     }
 
+    @RequestMapping("service")
+    public String service() {
+        return "home/service";
+    }
+
 
 
 
