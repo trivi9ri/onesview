@@ -8,7 +8,8 @@
 	String url = "jdbc:mysql://133.130.109.147:3306/onesview2016";
 	String id = "root";
 	String pass = "onesview";
-    String CurUrl=request.getRequestURI();
+//    String CurUrl=request.getRequestURI();
+	String CurUrl = request.getAttribute("javax.servlet.forward.request_uri");
 	int idx1 = CurUrl.indexOf('A');
 	int idx2 = CurUrl.indexOf('.');
 	String area = CurUrl.substring(idx1+5,idx2);
@@ -37,7 +38,7 @@
 		pstmt.setString(2, title);
 		pstmt.setString(3, memo);
 		pstmt.setInt(4, max+1);
-		pstmt.setString(5, CurUrl);
+		pstmt.setString(5, area);
 		
 		pstmt.execute();
 		pstmt.close();
@@ -49,6 +50,6 @@
 
 %>
  <script language=javascript>
-   self.window.alert(<%=area%>);
+   self.window.alert(<%=CurUrl%>);
    location.href="/Board/list.jsp";
    </script>
