@@ -3,7 +3,7 @@
 <%@ page import="java.sql.*,java.text.SimpleDateFormat,java.util.Date"%>
 <%
     String cp = request.getContextPath();
-	final int ROWSIZE = 4;  // 한페이지에 보일 게시물 수
+	final int ROWSIZE = 10;  // 한페이지에 보일 게시물 수
 	final int BLOCK = 5; // 아래에 보일 페이지 최대개수 1~5 / 6~10 / 11~15 식으로 5개로 고정
 
 	int pg = 1; //기본 페이지값
@@ -88,7 +88,7 @@ rs = stmt.executeQuery(listdb02); */
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
   <tr height="5"><td width="5"></td></tr>
   
- <tr style=" text-align:center;">
+ <tr style="background: url('../img/Board/table_mid.gif') repeat-x; text-align:center;">
    <td width="5"><img src="../img/Board/table_left.gif" width="5" height="30" /></td>
    <td width="73">번호</td>
    <td width="379">제목</td>

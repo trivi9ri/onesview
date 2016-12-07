@@ -36,7 +36,7 @@
 	<link rel="stylesheet" href="../css/style.css" />
 	<script type="text/javascript" src="../js/prefixfree.min.js"></script>
 </head>
-<body>
+<body style="color: black;">
 
 <selection>
 <table>
