@@ -25,9 +25,9 @@ public class TestController {
         return "home/suwonWiz";
     }
 
-    @RequestMapping("Jamsil")
-    public String Jamsil() {
-        return "home/Jamsil";
+    @RequestMapping("Prepare")
+    public String Prepare() {
+        return "home/preparing";
     }
 
     @RequestMapping("service")

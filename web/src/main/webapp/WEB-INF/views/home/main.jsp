@@ -67,7 +67,7 @@
                         <b>  view.</b>
                     </span>
             </h1>
-            <h5>This is one's view test page.</h5>
+            <h5>Welcome to One's view VR service site.</h5>
         </div>
 
         <div class="mouse">
@@ -87,10 +87,10 @@
                     <li style="color: white">aaaaaaaaaaaa</li>
                     <li><a href="/test/service.view">INTRODUCTION</a></li>
                     <li><a href="/test/KTwiz.view">수원KT위즈파크</a></li>
-                    <li><a href="/test/Jamsil.view">잠실야구장</a></li>
-                    <li><a href="/test/Gocheok.view">고척스카이돔</a></li>
-                    <li><a href="/test/Incheon.view">인천 SK행복드림구장</a></li>
-                    <li><a href="/test/Daejeon.view">대전 한화생명이글스파크</a></li>
+                    <li><a href="/test/Prepare.view">잠실야구장</a></li>
+                    <li><a href="/test/Prepare.view">고척스카이돔</a></li>
+                    <li><a href="/test/Prepare.view">인천 SK행복드림구장</a></li>
+                    <li><a href="/test/Prepare.view">대전 한화생명이글스파크</a></li>
                 </ul>
             </nav>
         </div>
