@@ -8,8 +8,7 @@
 	String url = "jdbc:mysql://133.130.109.147:3306/onesview2016";
 	String id = "root";
 	String pass = "onesview";
-//    String CurUrl=request.getRequestURI();
-	String CurUrl = request.getAttribute("javax.servlet.forward.request_uri");
+	String CurUrl = (String)request.getAttribute("javax.servlet.forward.request_uri");
 	int idx1 = CurUrl.indexOf('A');
 	int idx2 = CurUrl.indexOf('.');
 	String area = CurUrl.substring(idx1+5,idx2);
