@@ -46,6 +46,6 @@
 
 %>
  <script language=javascript>
-   self.window.alert(<%=area%>);
+   self.window.alert("Complete");
    location.href="/Board/list.jsp";
    </script>
