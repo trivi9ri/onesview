@@ -57,7 +57,11 @@
     <label for="tab2">후기</label>
 
     <input id="tab3" type="radio" name="tabs">
-    <label for="tab3">안내</label>
+    <label for="tab3">먹거리 안내</label>
+
+    <input id="tab4" type="radio" name="tabs">
+    <label for="tab4">화장실 안내</label>
+
     <section id = "content1">
         <p>
         <h2 class="centered" style="color:black">Block을 클릭해주세요</h2>
@@ -68,21 +72,33 @@
         </map>
         </p>
     </section>
-    <section id="content2">
-        <p>
-            Bacon ipsum dolor sit amet landjaeger sausage brisket, jerky drumstick fatback boudin ball tip turducken. Pork belly meatball t-bone bresaola tail filet mignon kevin turkey ribeye shank flank doner cow kielbasa shankle. Pig swine chicken hamburger, tenderloin turkey rump ball tip sirloin frankfurter meatloaf boudin brisket ham hock. Hamburger venison brisket tri-tip andouille pork belly ball tip short ribs biltong meatball chuck. Pork chop ribeye tail short ribs, beef hamburger meatball kielbasa rump corned beef porchetta landjaeger flank. Doner rump frankfurter meatball meatloaf, cow kevin pork pork loin venison fatback spare ribs salami beef ribs.
-        </p>
-        <p>
-            Jerky jowl pork chop tongue, kielbasa shank venison. Capicola shank pig ribeye leberkas filet mignon brisket beef kevin tenderloin porchetta. Capicola fatback venison shank kielbasa, drumstick ribeye landjaeger beef kevin tail meatball pastrami prosciutto pancetta. Tail kevin spare ribs ground round ham ham hock brisket shoulder. Corned beef tri-tip leberkas flank sausage ham hock filet mignon beef ribs pancetta turkey.
-        </p>
+
+    <section id="content2" name="content2">
+        <iframe src="http://133.130.109.147:8080/Board/list.jsp" frameborder=1 style="width: 100%;height: 50%"></iframe>
     </section>
 
     <section id="content3">
         <p>
-            Bacon ipsum dolor sit amet beef venison beef ribs kielbasa. Sausage pig leberkas, t-bone sirloin shoulder bresaola. Frankfurter rump porchetta ham. Pork belly prosciutto brisket meatloaf short ribs.
+        <h3 class="centered">구장 내 음식점 안내</h3>
+        <h5 class="centered" style="color:grey"> 스낵존은 구장 2층에 위치해있습니다. 각 존을 선택하시면 구장 내 음식점 배치를 알 수 있습니다.</h5>
+        <img id="Food" class="centered" src="<%=cp%>../../../img/Food/food.png" border="0" width="100%" usemap="#FoodMap" >
+        <map name = "FoodMap">
+            <area id = "red" shape = "poly" coords ="449,384,452,411,452,426,566,403,674,350,654,316,562,353" href="#ImgModal" data-toggle="modal" onclick="ImgGetId('red')">
+            <area id = "white" shape="poly" coords = "221,310,195,348,239,376,294,399,370,421,418,428,423,386,329,358,242,323,220,309" href="#ImgModal" data-toggle="modal" onclick="ImgGetId('white')">
+            <area id = "blue" shape="poly" coords = "113,191,48,227,88,267,168,330,210,278,157,236" href="#ImgModal" data-toggle="modal" onclick="ImgGetId('blue')">
+            <area id = "green" shape="poly" coords = "655,277,700,333,757,288,819,228,752,194,705,237" href="#ImgModal" data-toggle="modal" onclick="ImgGetId('green')">
+            <area id = "mandoo" shape="poly" coords = "253,668,255,682,402,683,400,666" href="#ImgModal" data-toggle="modal" onclick="ImgGetId('mandoo')">
+        </map>
         </p>
+
+    </section>
+
+    <section id="content4">
         <p>
-            Brisket meatball turkey short loin boudin leberkas meatloaf chuck andouille pork loin pastrami spare ribs pancetta rump. Frankfurter corned beef beef tenderloin short loin meatloaf swine ground round venison.
+        <h3 class="centered"> 화장실 안내 </h3>
+        <h5 class="centered" style="color: grey">406구역은 화살표가 가르치는 출구를 통해 나가셔서 4층 화장실을 이용하시기를 추천합니다.</h5>
+        <img id="Toilet" class="centered" src="<%=cp%>../../../img/Toilet/406.png" border="0" width="100%" usemap="#ToiletMap">
+        <map name="ToiletMap"></map>
         </p>
     </section>
 </main>
