@@ -8,10 +8,7 @@
 	String url = "jdbc:mysql://133.130.109.147:3306/onesview2016";
 	String id = "root";
 	String pass = "onesview";
-	String CurUrl = (String)request.getAttribute("javax.servlet.forward.request_uri");
-	int idx1 = CurUrl.indexOf('A');
-	int idx2 = CurUrl.indexOf('.');
-	String area = CurUrl.substring(idx1+5,idx2);
+	String area = (String)session.getAttribute("area");
 
 	String user = request.getParameter("user"); //write.jsp에서 name에 입력한 데이터값
 	String title = request.getParameter("title"); //write.jsp에서 title에 입력한 데이터값
@@ -30,14 +27,13 @@
 			max=rs.getInt(1);
 		}
 		
-		sql = "INSERT INTO listdb02(user,title,memo,date,ref,area) VALUES(?,?,?,now(),?,?)";
+		sql = "INSERT INTO listdb02(user,title,memo,date,ref) VALUES(?,?,?,now(),?)";
 		PreparedStatement pstmt = conn.prepareStatement(sql);
 		
 		pstmt.setString(1, user);
 		pstmt.setString(2, title);
 		pstmt.setString(3, memo);
 		pstmt.setInt(4, max+1);
-		pstmt.setString(5, area);
 		
 		pstmt.execute();
 		pstmt.close();
@@ -49,6 +45,6 @@
 
 %>
  <script language=javascript>
-   self.window.alert(<%=CurUrl%>);
+   self.window.alert(<%=area%>);
    location.href="/Board/list.jsp";
    </script>
