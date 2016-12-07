@@ -51,7 +51,7 @@
         </div> -->
         <!-- box-nav -->
         <a class="box-primary-nav-trigger" href="#0">
-            <span class="box-menu-text">My ticket</span>
+            <span class="box-menu-text"></span>
         </a>
         <!-- box-primary-nav-trigger -->
     </header>

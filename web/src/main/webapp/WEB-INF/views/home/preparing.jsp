@@ -22,7 +22,7 @@
 <body>
 <h3>사이트 준비중입니다.</h3>
 <div id="content">
-    <div id="c"><img src="<%=cp%>../../../img/pre33.png"></div>
+    <div id="c"><img src="<%=cp%>../../../img/pre33.gif"></div>
 </div>
 
 
