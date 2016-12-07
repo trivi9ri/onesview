@@ -98,7 +98,7 @@
         <p>
         <h3 class="centered"> 화장실 안내 </h3>
         <h5 class="centered" style="color: grey">316구역은 출구(파란 원)를 통해 나가셔서 2층 화장실을 이용하시기를 추천합니다.</h5>
-        <img id="Toilet" class="centered" src="<%=cp%>../../../img/Toilet/101.png" border="0" width="100%" usemap="#ToiletMap">
+        <img id="Toilet" class="centered" src="<%=cp%>../../../img/Toilet/313-320.png" border="0" width="100%" usemap="#ToiletMap">
         <map name="ToiletMap"></map>
         </p>
     </section>
