@@ -8,7 +8,7 @@
 	String url = "jdbc:mysql://133.130.109.147:3306/onesview2016";
 	String id = "root";
 	String pass = "onesview";
-	String area = (String)session.getAttribute("area");
+	String area = (String)session.getAttribute("Area");
 
 	String user = request.getParameter("user"); //write.jsp에서 name에 입력한 데이터값
 	String title = request.getParameter("title"); //write.jsp에서 title에 입력한 데이터값
