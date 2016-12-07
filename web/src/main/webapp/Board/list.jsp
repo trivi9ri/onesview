@@ -77,7 +77,7 @@ if(endPage > allPage) {
 
 out.print("ÃÑ °Ô½Ã¹° : " + total + "°³");
 
-String listdb02 = "select num, user, title, date,view,indent from listdb02 where STEP2 >="+start + " and STEP2 <= "+ end +" order by step2 asc";
+String listdb02 = "select num, user, title, date,view,indent from listdb02 where STEP2 >="+start + " and STEP2 <= "+ end +"order by step2 asc";
 rs = stmt.executeQuery(listdb02);
 
 /* String listdb02 = "select num, user, title, date,view,indent from listdb02 order by ref desc, step asc";

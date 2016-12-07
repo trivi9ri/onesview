@@ -1,4 +1,5 @@
-<%@ page import="java.sql.*"%> 
+<%@ page import="java.sql.*"%>
+<%@ page import="sun.util.resources.cldr.lag.CurrencyNames_lag" %>
 <%
 	request.setCharacterEncoding("euc-kr"); //받아오는 값들을 한글로 인코딩합니다.
 
@@ -7,7 +8,10 @@
 	String url = "jdbc:mysql://133.130.109.147:3306/onesview2016";
 	String id = "root";
 	String pass = "onesview";
-
+    String CurUrl=request.getRequestURI();
+	int idx1 = CurUrl.indexOf('A');
+	int idx2 = CurUrl.indexOf('.');
+	String area = CurUrl.substring(idx1+5,idx2);
 
 	String user = request.getParameter("user"); //write.jsp에서 name에 입력한 데이터값
 	String title = request.getParameter("title"); //write.jsp에서 title에 입력한 데이터값
@@ -26,13 +30,14 @@
 			max=rs.getInt(1);
 		}
 		
-		sql = "INSERT INTO listdb02(user,title,memo,date,ref) VALUES(?,?,?,now(),?)";
+		sql = "INSERT INTO listdb02(user,title,memo,date,ref,area) VALUES(?,?,?,now(),?,?)";
 		PreparedStatement pstmt = conn.prepareStatement(sql);
 		
 		pstmt.setString(1, user);
 		pstmt.setString(2, title);
 		pstmt.setString(3, memo);
 		pstmt.setInt(4, max+1);
+		pstmt.setString(5, CurUrl);
 		
 		pstmt.execute();
 		pstmt.close();
@@ -44,6 +49,6 @@
 
 %>
  <script language=javascript>
-   self.window.alert("Complete");
+   self.window.alert(<%=area%>);
    location.href="/Board/list.jsp";
    </script>

@@ -56,10 +56,14 @@
     <label for="tab2">후기</label>
 
     <input id="tab3" type="radio" name="tabs">
-    <label for="tab3">안내</label>
+    <label for="tab3">먹거리 안내</label>
 
     <input id="tab4" type="radio" name="tabs">
-    <label for="tab4"><a href="/test/KTwiz.view" style="color: #999">구장 안내</a></label>
+    <label for="tab4">화장실 안내</label>
+
+    <%--<input id="tab4" type="radio" name="tabs">--%>
+    <%--<label for="tab4"><a href="/test/KTwiz.view" style="color: #999">구장 안내</a></label>--%>
+
     <section id = "content1">
         <p>
         <h2 class="centered" style="color:black">Block을 클릭해주세요</h2>
@@ -88,10 +92,18 @@
                 <area id = "blue" shape="poly" coords = "113,191,48,227,88,267,168,330,210,278,157,236" href="#ImgModal" data-toggle="modal" onclick="ImgGetId('blue')">
                 <area id = "green" shape="poly" coords = "655,277,700,333,757,288,819,228,752,194,705,237" href="#ImgModal" data-toggle="modal" onclick="ImgGetId('green')">
                 <area id = "mandoo" shape="poly" coords = "253,668,255,682,402,683,400,666" href="#ImgModal" data-toggle="modal" onclick="ImgGetId('mandoo')">
-
             </map>
         </p>
 
+    </section>
+
+    <section id="content4">
+        <p>
+            <h3 class="centered"> 화장실 안내 </h3>
+            <h5 class="centered" style="color: grey">101구역은 화살표가 가르치는 출구를 통해 나가셔서 2층 화장실을 이용하시기를 추천합니다.</h5>
+               <img id="Toilet" class="centered" src="<%=cp%>../../../img/Toilet/101.png" border="0" width="100%" usemap="#ToiletMap">
+               <map name="ToiletMap"></map>
+        </p>
     </section>
 
 </main>
