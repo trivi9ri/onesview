@@ -27,13 +27,14 @@
 			max=rs.getInt(1);
 		}
 		
-		sql = "INSERT INTO listdb02(user,title,memo,date,ref) VALUES(?,?,?,now(),?)";
+		sql = "INSERT INTO listdb02(user,title,memo,date,ref,area) VALUES(?,?,?,now(),?,?)";
 		PreparedStatement pstmt = conn.prepareStatement(sql);
 		
 		pstmt.setString(1, user);
 		pstmt.setString(2, title);
 		pstmt.setString(3, memo);
 		pstmt.setInt(4, max+1);
+		pstmt.setString(5,area);
 		
 		pstmt.execute();
 		pstmt.close();
