@@ -44,6 +44,7 @@ String id = "root";         // SQL 사용자 이름
 String pw = "onesview";     // SQL 사용자 패스워드
 Class.forName("com.mysql.jdbc.Driver");              // DB와 연동하기 위해 DriverManager에 등록한다.
 int total = 0;
+int subtotal = 0;
 
 try{
 conn=DriverManager.getConnection(url,id,pw);    // DriverManager 객체로부터 Connection 객체를 얻어온다.
@@ -57,6 +58,14 @@ ResultSet rs = stmt.executeQuery(sqlCount);
 if(rs.next()){
 	total = rs.getInt(1);
 }
+String area = (String)session.getAttribute("Area");
+String sqlSubCount = "SELECT COUNT(*) FROM listdb02 where area="+area+"";
+rs = stmt.executeQuery(sqlSubCount);
+
+if(rs.next()){
+	subtotal = rs.getInt(1);
+}
+
 int sort=1;
 String sqlSort = "SELECT NUM from listdb02 order by ref desc, step asc";
 rs = stmt.executeQuery(sqlSort);
@@ -75,8 +84,8 @@ if(endPage > allPage) {
 }
 /* rs.close(); */
 
-out.print("총 게시물 : " + total + "개");
-String area = (String)session.getAttribute("Area");
+out.print("총 게시물 : " + total + "개 중 "+subtotal+"개");
+
 String listdb02 = "select num, user, title, date,view,indent from listdb02 where STEP2 >="+start + " and STEP2 <= "+ end +" and area="+area+" order by step2 asc";
 rs = stmt.executeQuery(listdb02);
 
