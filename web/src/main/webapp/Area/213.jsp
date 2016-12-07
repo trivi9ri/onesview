@@ -98,8 +98,8 @@
     <section id="content4">
         <p>
         <h3 class="centered"> 화장실 안내 </h3>
-        <h5 class="centered" style="color: grey">103구역은 화살표가 가르치는 출구를 통해 나가셔서 2층 화장실을 이용하시기를 추천합니다.</h5>
-        <img id="Toilet" class="centered" src="<%=cp%>../../../img/Toilet/103.png" border="0" width="100%" usemap="#ToiletMap">
+        <h5 class="centered" style="color: grey">213구역은 화살표가 가르치는 출구를 통해 나가셔서 2층 화장실을 이용하시기를 추천합니다.</h5>
+        <img id="Toilet" class="centered" src="<%=cp%>../../../img/Toilet/213.png" border="0" width="100%" usemap="#ToiletMap">
         <map name="ToiletMap"></map>
         </p>
     </section>
