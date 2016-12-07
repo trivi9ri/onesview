@@ -14,7 +14,8 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%String cp = request.getContextPath();%>
+<%String cp = request.getContextPath();
+    session.setAttribute("Area","outfield2");%>
 <html>
 <head>
     <meta charset="utf-8">

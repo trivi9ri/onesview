@@ -51,6 +51,7 @@
 <h1>238 Block</h1>
 <main>
     <input id="tab1" type="radio" name="tabs" checked>
+    <label for="tab1">VR View</label>
 
     <input id="tab2" type="radio" name="tabs">
     <label for="tab2">후기</label>
