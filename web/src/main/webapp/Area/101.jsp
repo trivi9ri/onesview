@@ -76,7 +76,7 @@
     <section id="content3">
         <p>
             <h3 class="centered">구장 내 음식점 안내</h3>
-            <h5 class="centered" style="color:grey">각 zone을 선택하시면 구장 내 음식점 배치를 알 수 있습니다.</h5>
+            <h5 class="centered" style="color:grey"> 스낵존은 구장 2층에 위치해있습니다. 각 존을 선택하시면 구장 내 음식점 배치를 알 수 있습니다.</h5>
             <img id="Food" class="centered" src="<%=cp%>../../../img/Food/food.png" border="0" width="100%" usemap="#FoodMap" >
             <map name = "FoodMap">
                 <area id = "red" shape = "poly" coords ="449,384,452,411,452,426,566,403,674,350,654,316,562,353" href="#ImgModal" data-toggle="modal" onclick="ImgGetId('red')">
