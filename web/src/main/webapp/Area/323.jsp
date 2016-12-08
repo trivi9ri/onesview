@@ -106,6 +106,30 @@
 </main>
 
 
+<div class="modal" id="ImgModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Food</h4>
+            </div>
+            <div class="modal-body">
+                <iframe
+                        id = "Img"
+                        frameborder="0"
+                        width="100%"
+                        height="80%"
+                        scrolling="yes"
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Close</a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 
 <div class="modal" id="VRModal">
     <div class="modal-dialog">
@@ -145,5 +169,13 @@
         $('#VR').attr('src',VrUrl);
     }
 </script>
+<script>
+    function ImgGetId(e) {
+        var id = document.getElementById(e).id;
+        var VrUrl = '../img/Food/'+document.getElementById(e).id+'.png';
+        $('#Img').attr('src',VrUrl);
+    }
+</script>
+
 </body>
 </html>
