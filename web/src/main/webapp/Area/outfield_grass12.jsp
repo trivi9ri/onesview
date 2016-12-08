@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%String cp = request.getContextPath();
-    session.setAttribute("Area","outfield_grass12");%>
+    session.setAttribute("Area","516");%>
 <html>
 <head>
     <meta charset="utf-8">
