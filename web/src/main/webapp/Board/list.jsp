@@ -77,7 +77,7 @@ while(rs.next()){
  	stmt1.executeUpdate(sql);
  	sort++;
 } 
-allPage = (int)Math.ceil(total/(double)ROWSIZE);
+allPage = (int)Math.ceil(subtotal/(double)ROWSIZE);
 
 if(endPage > allPage) {
 	endPage = allPage;
