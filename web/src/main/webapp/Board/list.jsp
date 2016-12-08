@@ -77,7 +77,7 @@ while(rs.next()){
  	stmt1.executeUpdate(sql);
  	sort++;
 } 
-allPage = (int)Math.ceil(total/(double)ROWSIZE);
+allPage = (int)Math.ceil((double)subtotal/(double)ROWSIZE);
 
 if(endPage > allPage) {
 	endPage = allPage;
@@ -108,7 +108,7 @@ rs = stmt.executeQuery(listdb02); */
    
   </tr>
 <%
-	if(total==0) {
+	if(subtotal==0) {
 %>
 	 		<tr align="center" bgcolor="#FFFFFF" height="30">
 	 	   <td colspan="6">등록된 글이 없습니다.</td>
